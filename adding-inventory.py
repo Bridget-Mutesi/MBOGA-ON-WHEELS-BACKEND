@@ -1,3 +1,5 @@
+from inventory.py import Inventory
+
 inventory.add_to_inventory("banana", 10)
 inventory.add_to_inventory("apples", 5)
 inventory.add_to_inventory("carrots", 20)
