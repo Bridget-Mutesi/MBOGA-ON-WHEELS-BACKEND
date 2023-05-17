@@ -1,3 +1,5 @@
+from stock.py import Stock
+
 class Inventory:
     def __init__(self):
         self.items = {}
@@ -12,5 +14,5 @@ class Inventory:
             print(f"{quantity} {name} added to cart")
             print(f"Remaining stock for {name}: {self.items[name].quantity}")
         else:
-            print(f"{name} not found in inventory")
+            print(f"{name} you want to add is not available in stock for a moment")
 inventory = Inventory()
