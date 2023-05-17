@@ -8,4 +8,4 @@ class Stock:
         if self.quantity >= quantity:
             self.quantity -= quantity
         else:
-            print(f"Not enough {self.name} in stock")
+            print(f"{self.name} not available in stock at the moment")
