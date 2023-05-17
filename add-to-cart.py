@@ -1,3 +1,5 @@
+from inventory.py import Inventory
+
 # adding items to the cart
 inventory.add_to_cart("banana", 2)
 inventory.add_to_cart("apples", 4)
